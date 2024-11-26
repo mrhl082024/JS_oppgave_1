@@ -53,6 +53,14 @@ Try to use both the let and const keywords
 ******************************************************************************/
 
 //your code here
+const myString = "What is the meaning of life?";
+const myNumber = 42;
+const myBoolean = true;
+const myArray = [1, 2, 3];
+console.log(myString);
+console.log(myNumber);
+console.log(myBoolean);
+console.log(myArray);
 
 /****************************************************************************** 
 
