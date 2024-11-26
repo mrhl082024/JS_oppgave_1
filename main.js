@@ -175,5 +175,7 @@ to see that your conditional is working.
 ******************************************************************************/
 
 const userMale = false;
+var userTitle = true ? "Mr. " : "Mrs. ";
+console.log(userTitle);
 
 //your code here
