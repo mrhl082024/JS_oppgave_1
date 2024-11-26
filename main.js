@@ -127,17 +127,28 @@ can handle all cases correctly
 
 ******************************************************************************/
 
-let userName = "";
+let userName = "Lars";
 
-let userAge = 18;
+let userAge = 24;
 
 let userIsLoggedIn = false;
 
-let userIsBlocked = false;
+let userIsBlocked = true;
 
 let goToPage = "";
 
 //your code here
+
+if (userName != "" && userAge >= 18 && userIsBlocked == false) {
+  (userIsLoggedIn = true),
+    (goToPage = "/home"),
+    console.log("Welcome decent human!");
+  console.log(goToPage);
+} else {
+  goToPage = "Rejected";
+  console.log("Begone criminal scum!");
+  console.log(goToPage);
+}
 
 /******************************************************************************
 
