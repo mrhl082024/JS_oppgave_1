@@ -75,6 +75,23 @@ as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
 
 //your code here
+var plusNumber = 5 + 5;
+console.log(plusNumber);
+var minusNumber = 10 - 3;
+console.log(minusNumber);
+var deltNumber = 10 / 2;
+console.log(deltNumber);
+var gangeNumber = 10 * 2;
+console.log(gangeNumber);
+
+plusNumber += 5;
+console.log(plusNumber);
+minusNumber -= 3;
+console.log(minusNumber);
+deltNumber /= 5;
+console.log(deltNumber);
+gangeNumber *= 2;
+console.log(gangeNumber);
 
 /****************************************************************************** 
 
